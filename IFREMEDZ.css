@@ -1,0 +1,16 @@
+iframe{
+    height:100vh ;
+    width:100vw ;
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration:none ;
+    background-color:rgb(180, 234, 255) ;
+    text-align: center;
+}
+.ggggg{
+    font-size:3em;
+    color:rgb(77, 77, 77) ;
+}

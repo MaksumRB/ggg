@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    }
+    html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.f{
+margin-bottom:6px ;
+font-size:2em ;
+position:sticky;
+top:1px;
+display:block;
+border-bottom:2px solid black ;
+}
+.non div {
+    margin:auto ;
+    height:20px ;
+    width:32% ;
+    border:2px solid black ;
+    background-color: grey;
+    text-align:center ;
+    display: inline-block;
+}
+
+.gg div {
+    position: relative;
+    height:200px ;
+    width:32%;
+    background-color:rgb(163, 163, 163);
+    border:2px solid black ;
+    display: inline-block;
+}
+.g{
+    font-size:1em ;
+}
+
+.v{
+    text-align: center;
+    display:block ;
+    position:relative ;
+    top:6px ;
+    border-top:2px solid black ;
+
+}
+a{
+    position:relative ;
+    left:48% ;
+}

@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    }
+    html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/*HEADER*/
+.header{
+
+    background-color: rgb(255, 0, 0);
+    height:200px; 
+    position:relative;
+
+
+}
+.menu a{
+    color: black;
+    font-size:2em ;
+    margin:3px 20px ;
+    }
+    .menu{
+        width:100% ;
+        border-bottom:3px solid black ;
+        border-top:3px solid black ;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+    }  
+/*MAIN*/
+.main{
+background-color: cornflowerblue;
+height:10000px ;
+}
+.leftsidebar{
+    background-color: rgb(0, 217, 255);
+    height:100%;
+    width: 15%;
+    float:left;
+}
+.sitebar_menu{
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    position:sticky;
+    top: 0;
+}
+.content{
+    background-color: rgb(89, 253, 13);
+    height:100% ;
+    width: 70%;
+    float: left;
+    text-align:center ;
+}
+
+.rightsidebar{
+    background-color: rgb(0, 217, 255);
+    height:100%;
+    width:15% ;
+    float: left;
+}
+img{
+    transition-duration:10s ;
+}
+ul{
+    list-style: none;
+}
+li:nth-child(1) img:hover {
+    filter:blur(5px) ;
+    
+}
+
+li:nth-child(2) img:hover {    
+    filter:brightness(2000%) ;
+}
+
+li:nth-child(3) img:hover {    
+    filter:contrast(300%) ;
+}
+
+
+li:nth-child(4) img:hover {    
+    filter:grayscale(100%) ;
+}
+
+li:nth-child(5) img:hover {    
+    filter: hue-rotate(100deg) ;
+}
+
+li:nth-child(6) img:hover {    
+    filter:saturate(0%) ;
+}
+li:nth-child(7) img:hover {    
+    filter: invert(100%) ;
+}
+li:nth-child(8) img:hover {    
+    filter:sepia(150%) ;
+}
+li:nth-child(9) img:hover {    
+    filter: opacity(0%) ;
+}
+li:nth-child(10) img:hover {    
+    filter: hue-rotate(1000deg) ;
+    height:250px ;
+    width: 1000px;
+}
+li:nth-child(10) img {    
+    height: 25px;
+    width: 25px;
+}
+/*FOOTER*/
+.footer{
+    background-color: rgb(0, 102, 255);
+    height:310px ;
+}
+
+body{
+   height:2000px ;
+   background-color: rgb(251, 255, 0);
+}
+

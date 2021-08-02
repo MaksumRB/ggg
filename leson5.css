@@ -1,0 +1,24 @@
+#lol{
+    height:200px ;
+    width:150px ;
+    color: yellow;
+    background-color: skyblue;
+    border: 5px solid rgb(248, 8, 8) ;
+    overflow: auto;
+}
+
+#no{
+    height: 300px;
+    width: 650px;
+    border: 5px solid rgb(7, 95, 7);
+    color: rgb(8, 124, 43);
+    background-color: indigo;
+    background-image: -webkit-repeating-linear-gradient(right,green 20px,lime 40px,yellow 60px)
+}
+
+#joj{
+    height: 100px;
+    width: 450px;
+    border-radius: 100%;
+    background-image: -webkit-radial-gradient(circle,green ,lime);
+}

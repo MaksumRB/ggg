@@ -1,0 +1,50 @@
+.main div{
+height:55px ;
+width:150px ;
+background-color: blue;
+transition-duration:3s ;
+margin-bottom: 0px ;
+position: relative;
+
+}
+
+.ro{
+    position: relative;
+    top:5px ;
+    background-color: blue;
+    z-index:3 ;
+    text-align: center;
+    font-size:3em ;
+ =
+}
+
+
+
+.roo{
+  position: relative;
+  top:-55px ;
+  z-index:2 ;
+  text-align:center ;
+  font-size:3em ;
+
+}
+
+.rooo{
+  position: relative;
+  top:-105px ;
+  z-index:1 ;
+  text-align: center;
+  font-size:3em ;
+
+}
+
+.main:hover .roo{
+ position: relative;
+ top:0;
+}
+
+.main:hover .rooo{
+    position: relative;
+    top:0;
+}
+

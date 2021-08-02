@@ -1,0 +1,93 @@
+.wraper div{
+ 
+   display: inline-block;
+    color: green;
+    height:150px ;
+    width:150px ;
+    border:2px solid green ;
+    padding:20px ;
+    margin:20px ;
+    background-color: greenyellow;
+}
+
+.wraper div:hover{
+    height:200px ;
+    box-shadow:0px 0px 10px 3px green ;
+}
+
+.block1{
+  
+    animation-duration:3s ;
+    animation-delay: 0.4 ;
+    animation-name:anime ;
+    animation-fill-mode:forwards ;
+}
+
+.block2{
+
+    animation-duration:3s ;
+    animation-delay: 0.8 ;
+    animation-name:anime ;
+    animation-fill-mode:forwards ;
+}
+
+.block3{
+   
+    animation-duration:3s ;
+    animation-delay: 1.2 ;
+    animation-name:anime ;
+    animation-fill-mode:forwards ;
+}
+
+.block4{
+ 
+    animation-duration:3s ;
+    animation-delay: 1.6 ;
+    animation-name:anime ;
+    animation-fill-mode:forwards ;
+}
+
+.block5{
+  
+    animation-duration:3s ;
+    animation-delay: 2.0 ;
+    animation-name:anime ;
+    animation-fill-mode:forwards ;
+}
+
+
+.block6{
+ 
+    animation-duration:3s ;
+    animation-delay: 2.4 ;
+    animation-name:anime ;
+    animation-fill-mode:forwards ;
+}
+
+@keyframes anime{
+  0%{
+      background-color: honeydew;
+      color: honeydew;
+      border:0px solid black ;
+  }
+
+  100%{
+      transform:translate(0,200px) ;
+  }
+}
+
+h2{
+    display:none;
+}
+
+.wraper div:hover h2{
+    display: block;
+    font-size:15px ;
+    height:50px ;
+    width:150 ;
+    border:2px solid green;
+    color: green;
+    background-color:red ;
+    text-align:center ;
+}
+

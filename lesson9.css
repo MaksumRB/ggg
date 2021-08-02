@@ -1,0 +1,75 @@
+#gg{
+width: 50px ;
+height: 50px;
+background-color: royalblue;
+display:block ;
+}
+
+p{
+    background-color: skyblue;
+}
+
+span{
+    display: ;
+    background-color: yellow;
+    height:50px ;
+    width:50px ;
+}
+#g{
+    background-color: yellowgreen;
+}
+
+#ggg{
+    background-color: royalblue;
+}
+
+img{
+    display:
+    height:250px ;
+}
+
+a{
+    display: inline-block;
+    border:3px dashed red;
+    border-bottom:8px solid  red ;
+     padding:10px 5px ;
+     background-color: royalblue;
+     margin:15px ;
+     height:20px ;
+     width:150px ;
+}
+
+#p{
+    background-color: skyblue;  ;
+}
+#m{
+    display: inline-block;
+    background-color: rgba(22, 186, 228, 0.897);
+    height:40px ;
+    width:200px ;
+}
+#r{
+    display: inline-block;
+    margin-left:15px;
+    width:85% ;
+    background-color: steelblue;
+    height:40px ;
+}
+#a{
+    background-color: blue ;
+    height:30px ;
+}
+
+#id{
+    font-size:2em ;
+}
+
+#nn{
+    background-color: blue;
+    width: 20vw ;
+}
+
+#nnn{
+    background-color:gold; 
+    height:20vh ;
+}
